@@ -1,0 +1,23 @@
+{
+    "name": "pastemarkdownlinks",
+    "version": "1.0.0",
+    "description": "Automatically pastes links as markdown on the selected websites.",
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "scripts": {
+        "lint": "grunt eslint",
+        "prep": "grunt prepare",
+        "build": "grunt build",
+        "release": "grunt release"
+    },
+    "author": "João Valente",
+    "license": "MIT",
+    "devDependencies": {
+        "grunt": "^1.4.1",
+        "grunt-contrib-clean": "^2.0.0",
+        "grunt-contrib-compress": "^2.0.0",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-eslint": "^23.0.0"
+    }
+}
